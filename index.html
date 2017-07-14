@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  <title>Form</title>
+</head>
+<body>
+  <section class="container">
+    <div class="registration">
+      <img src="images/user-icon.png" alt="user-icon">
+      <form method="post" action="index.html" id="loginform">
+        <h1>Register</h1>
+        <span id='message' style='color:red; font-size: 40px'></span>
+        <p><input type="text" name="form_name" value="" placeholder="Username" required></p>
+        <p><input type="email" name="form_email" value="" placeholder="E-mail"required ></p>
+        <p><input type="tel" name="form_phone" value="" placeholder="Phone" required></p>
+        <p><input type="password" name="form_password_1" id="form_password_1" value="" placeholder="Password" required ></p>
+        <p><input type="password" name="form_password_2" value="" placeholder="Password again" required></p>
+        <p><input type="submit" name="register" value="REGISTER"></p>
+      </form>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="js/myscript.js"></script>
+
+
+</body>
+</html>

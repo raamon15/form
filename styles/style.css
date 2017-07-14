@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #01ceb8;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.registration {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  width: 330px;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 4em;
+  padding-bottom: 1em;
+  margin-top: 5em;
+  color: #333333;
+  -webkit-box-shadow: 49px 40px 0px 2px rgba(2,165,147,0.54);
+  -moz-box-shadow: 49px 40px 0px 2px rgba(2,165,147,0.54);
+  box-shadow: 49px 40px 0px 2px rgba(2,165,147,0.54);
+}
+h1 {
+  padding-bottom: 20px;
+}
+img {
+  position: absolute;
+  top: -10%;
+  left: 34%;
+}
+input {
+  font-family: 'Lato', sans-serif;
+  background-color: #d3d3d3;
+  border: none;
+  text-align: center;
+  padding: 10px 10px;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  color: #333333;
+}
+input::placeholder {
+  color: #333333;
+}
+input[type="submit"] {
+  color: #fff;
+  background-color: #4591fb;
+  border-bottom: 3px solid #3e82e1;
+  cursor: pointer;
+}
+label.error {
+  display: block;
+  color: red;
+  float: none;
+  border: none;
+}
+#form_name-error, #form_email-error, #form_phone-error, #form_password_1-error, #form_password_1-error, #form_password_2-error {
+  background: none;
+}
+#message {
+  color:red;
+  font-size: 40px;
+}
